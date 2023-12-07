@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    background-image: url("../imagens/menuinicial22.jpg");
+    background-repeat: no-repeat;
+    background-size:inherit;
+    color: #FFF; 
+}
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 40px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  
+}
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+
+/* nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  position: relative;
+}
+
+nav ul li {
+  display: inline-block;
+  float: none;
+  padding: 0 5px;
+}
+
+nav a {
+  display: block;
+  padding: 0 10px;
+  color: #000;
+  font-size: 20px;
+  line-height: 30px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #FFF;
+  /* background-color: #02893e; */
+  /* transition: all .3s ease; */
+/* }
+
+nav ul ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+} */
+
+/* nav ul li:hover>ul {
+  display: inherit;
+  transition: all .3s ease;
+  background-color:  #3fb373;
+  color: #FFF;
+  opacity: 95%;
+}
+
+nav ul ul li {
+  min-width: 170px;
+  display: list-item;
+  position: relative;
+  padding: 10px;
+}
+
+nav ul ul ul {
+  position: absolute;
+  top: 0;
+  left: 100%;
+} */ */
+
+header {
+  width: 100%;
+  height: 130px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0;
+}
+h1{
+    position: inherit;
+    margin-top: 120px;
+    font-size: 40px;
+}
+.paragrafo {
+    position: inherit;
+    margin-top: -33px;
+    font-size: 30px;
+}
+
+#conteudo{
+    display: flex;
+    margin-top: -2%;
+    padding: 10px;
+    border-top: 2px gray solid;
+}
+
+#conteudo p{
+    font-size: 18px;
+}
+
+button{
+    background-color: transparent;
+    border-radius: 4px;
+    width: 20%;
+    height: 15%;
+    border-color: white;
+}
+
+.botoes{
+  color: white;
+  text-decoration: none;
+}
+
+#esquerda{
+  background-color: #3fb373;
+  padding: 20px;
+}
+
+#direita{
+  background-color: #02893e;
+  padding: 20px;
+}
+
+section{
+  margin: 11% 15%;
+}

@@ -1,0 +1,207 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito', sans-serif;
+  color: #FEFDEA;
+}
+
+.navBar {
+  background-color: #FEFDEA !important;
+}
+#navbarNavDarkDropdown{
+  justify-content: end !important;
+}
+
+.legumes {
+  background-color: #3fb373 !important;
+  opacity: 95%;
+}
+
+.bt_legume {
+  border: none !important;
+  font-size: 20px !important;
+}
+
+.btn_menu {
+  background-color: #3fb373 !important;
+}
+
+h1 {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 25%;
+}
+.paragrafo {
+  position: absolute;
+  top: 35%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  text-align: center;
+  justify-content: space-between;
+  font-size: medium;
+}
+header {
+  display: flex;
+  justify-content: center;
+  height: 200px;
+  align-items: center;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 40px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  
+}
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+nav{
+  display: flex;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  position: relative;
+}
+
+nav ul li {
+  display: inline-block;
+  float: none;
+  padding: 0 5px;
+}
+
+nav a {
+  display: block;
+  padding: 0 10px;
+  color: #000;
+  font-size: 20px;
+  line-height: 30px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #FFF;
+  background-color: #02893e;
+  transition: all .3s ease;
+}
+
+nav ul ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+}
+
+nav ul li:hover>ul {
+  display: inherit;
+  transition: all .3s ease;
+  background-color:  #3fb373;
+  color: #FFF;
+  opacity: 85%;
+}
+
+nav ul ul li {
+  min-width: 170px;
+  display: list-item;
+  position: relative;
+  padding: 10px;
+}
+
+nav ul ul ul {
+  position: absolute;
+  top: 0;
+  left: 100%;
+}
+
+header {
+  width: 100%;
+  height: 130px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0;
+}
+svg{
+  margin-top: -50px;
+  position: absolute;
+  z-index: -1;
+  position:relative;
+  margin-bottom: -30%;
+}
+
+h1{
+    font-size: 35px;
+}
+
+#conteudo{
+    display: flex;
+    margin-top: 10%;
+    padding: 10px;
+    border-top: 2px gray solid;
+}
+
+#conteudo p{
+    font-size: 18px;
+}
+
+button{
+    background-color: transparent;
+    border-radius: 4px;
+    width: 20%;
+    height: 15%;
+}
+
+#esquerda{
+  background-color: #3fb373;
+  padding: 20px;
+}
+
+#direita{
+  background-color: #02893e;
+  padding: 20px;
+}
+#estados {
+  display: flex;
+  justify-content: center;
+  background-position: center;
+  background-position: cover;
+  background-color: #f7f9e6;
+  height: 700px;
+  text-decoration: none;
+}
+.column {
+  flex-direction: column;
+}
+.lista-estados {
+  margin: 200px;
+  display: flex;
+  height: 700px;
+  width: 800px;
+  background-color: #f7f9e6;
+}
+.estados1 {
+  flex: 1;
+}
+.estados1,
+.estados2,
+.estados3 {
+  flex: 1;
+}
+details {
+  color: #02893e;
+  margin: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.infos {
+  text-decoration: none;
+  color: #036730;
+}

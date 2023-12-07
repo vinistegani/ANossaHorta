@@ -1,0 +1,276 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    background-image: url("imagens/menuinicial22.jpg");
+    background-repeat: no-repeat;
+    background-size: inherit;
+    color: #FFF;
+    box-sizing: border-box;
+}
+
+.navBar {
+    background-color: #FEFDEA !important;
+}
+#navbarNavDarkDropdown{
+    justify-content: end !important;
+}
+
+.legumes {
+    background-color: #3fb373 !important;
+    opacity: 95%;
+}
+
+.bt_legume {
+    border: none !important;
+    font-size: 20px !important;
+}
+
+.btn_menu {
+    background-color: #3fb373 !important;
+}
+
+.slogan {
+    margin-top: 13%;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+
+.slogan p {
+    font-size: 30px;
+}
+
+.leimas {
+    background-color: #3fb373;
+    border-start-start-radius: 15px;
+}
+
+.leimas h5 {
+    font-size: medium;
+}
+
+.leimas p {
+    font-size: small;
+}
+.text-start{
+    width: 80%;
+    font-size: large !important;
+    padding-left: 5%;
+    margin-top: 3%;
+}
+.btn-outline-light{
+    margin-left: 5%;
+}
+.btn-quiz{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 0 !important;
+}
+.leimas3 {
+    border-end-end-radius: 15px;
+    background-color: #02893e;
+}
+
+.leimas3 h5 {
+    font-size: medium;
+    justify-content: center;
+}
+
+.leimas3 p {
+    font-size: small;
+}
+
+.row{
+    justify-content: center;
+}
+.botoes {
+    text-decoration: none;
+    
+}
+
+
+button {
+    padding: 10px;
+    cursor: pointer;
+}
+
+#quiz-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* display: none; */
+}
+
+
+#question-container,
+#button,
+#result,
+.texto {
+    position: absolute;
+    top: 39%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    z-index: 1;
+    width: 70%;
+    max-width: 400px;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+}
+
+#question-container {
+    margin-top: -59px;
+}
+
+.input {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    width: 70%;
+    max-width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: black;
+}
+
+#answer-input {
+    top: auto;
+    width: auto;
+    margin-top: 207px;
+}
+
+#button {
+    top: 88%;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: auto;
+    height: auto;
+}
+
+.button2 {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    cursor: pointer;
+    background-color: #FEFDEA !important;
+    /* border: 4px solid #087439 !important; */
+    width: auto;
+    font-weight: bold !important;
+    border-radius: 5px;
+    color: #02893E !important;
+
+}
+
+.button2:hover {
+    background-color: #dddcc2 !important;
+}
+
+#result {
+    top: 90%;
+    margin-left: -23px;
+}
+
+.img {
+    width: 200%;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.img2 {
+    width: 58% !important;
+    margin-left: 20%;
+    margin-top: 10%;
+}
+
+.texto {
+    width: 57%;
+    max-width: 100%;
+    margin-top: 25px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.h1 {
+    color: black !important;
+    text-decoration: underline;
+    margin-bottom: 25px !important;
+}
+
+.verde {
+    width: 215%;
+}
+
+#level {
+    margin-top: 50px !important;
+    margin-right: 83%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+    border-radius: 50%;
+    background-color: orange;
+    text-align: center;
+    color: black;
+}
+
+.input {
+    border: 4px solid #38813b;
+}
+
+.card {
+    background-color: transparent !important;
+}
+
+
+/* @media screen and (max-width:500px) {
+
+    #button {
+        top: 74%;
+        cursor: pointer;
+        background-color: #4caf50;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        width: 107px;
+    }
+
+} */
+
+.modal_color {
+    background-color: #3FB373 !important;
+}
+
+.btn_close {
+    background-color: #02893E !important;
+    color: white !important;
+    margin-top: -150px;
+}
+
+.btn_close:hover {
+    background-color: #0b783c !important;
+}
+
+.icon_btn {
+    width: 50px;
+}
+
+.btn_button {
+    background-color: transparent !important;
+    border-color: transparent !important
+}
+
+.footerModal {
+    height: 113px !important;
+}
+
+.modal-body {
+    height: 400px;
+}

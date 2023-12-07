@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito', sans-serif;
+  background-color: #FEFDEA !important;
+  box-sizing: border-box;
+}
+
+.navBar {
+  background-color: #FEFDEA !important;
+}
+#navbarNavDarkDropdown{
+  justify-content: end !important;
+}
+
+.legumes {
+  background-color: #3fb373 !important;
+  opacity: 95%;
+}
+
+.bt_legume {
+  border: none !important;
+  font-size: 20px !important;
+}
+
+.btn_menu {
+  background-color: #3fb373 !important;
+}
+
+.modal_color {
+  background-color: #3FB373 !important;
+}
+
+.btn_close {
+  background-color: #02893E !important;
+  color: white !important;
+  margin-top: -150px;
+}
+
+.btn_close:hover {
+  background-color: #0b783c !important;
+}
+
+.icon_btn {
+  width: 50px;
+}
+
+.btn_button {
+  background-color: transparent !important;
+  border-color: transparent !important
+}
+
+.footerModal {
+  height: 113px !important;
+}
+
+.modal-body {
+  height: 400px;
+}
+.foto-beterraba {
+    position: relative;
+    left: -20%;
+}
+
+button {
+  padding: 10px;
+  cursor: pointer;
+}
+h2 {
+  color: #c6661c !important;
+  margin: auto;
+  font-size: 35px;
+  text-decoration: underline;
+}
+  
+.row{
+  flex-wrap: nowrap !important;
+}
+
+.img{
+  width: 20% !important;
+}
+h2{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 3%;
+}
+
+.informativa{
+  width: 30%;
+}
+.cultivos{
+  width: 30%;
+}
+.morango-titulo {
+  color: rgb(225, 9, 9) !important;
+}
+
+.plantar1 {
+  color: black;
+}
+
+@media (max-width: 550px) {
+  .foto-beterraba{
+    display: none;
+  }
+  .informativa{
+    width: 80%;
+  }
+  .container-fluid{
+    margin-left: -15%;
+  }
+  .row{
+    flex-direction: column !important;
+    padding: 0 20px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .foto-beterraba{
+    display: none;
+  }
+  .img{
+    width: 0 !important;
+  }
+  .row{
+    justify-content: center;
+  }
+}
